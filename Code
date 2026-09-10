@@ -1,0 +1,14 @@
+mkdir VCS-Assignment
+cd VCS-Assignment
+git init
+
+git config --global user.name "Piyush575-byte"
+git config --global user.email "piyushsharma15aug@gmail.com"
+git config --global --list
+
+git add .
+git commit -m "Configure Git username and email"
+
+git branch -M main
+git remote add origin https://github.com/Piyush575-byte/VCS-Assignment.git
+git push -u origin main
